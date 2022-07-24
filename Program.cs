@@ -12,6 +12,7 @@ internal class Program
             Console.Write(array[i] + "\t");
         }
         Console.WriteLine();
+        Console.WriteLine();
         string[] array2 = new string[array.Length];
         Console.WriteLine("Из трех и менее символов состоят:");
         for (int i = 0; i < array.Length; i = i + 1)
@@ -23,5 +24,6 @@ internal class Program
                 Console.Write(array2[i] + "\t");
             }
         }
+        Console.WriteLine();
     }
 }
